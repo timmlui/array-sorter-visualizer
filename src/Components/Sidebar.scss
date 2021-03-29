@@ -1,0 +1,49 @@
+.sidebar {
+  grid-area: sidebar;
+  height: 100%;
+  background-color: #403c3c;
+
+  .sidebar-list {
+    /* height: auto; */
+    padding: 0;
+    /* width: 100%; */
+  
+    .item {
+      width: 100%;
+      height: 60px;
+      list-style-type: none;
+      /* margin: 0; */
+      display: flex;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-family: monospace;
+  
+      .icon {
+        flex: 30%;
+        display: grid;
+        place-items: center;
+      }
+      
+      .title {
+        flex: 70%;
+      }
+    }
+
+    .array-size {
+      .title {
+        flex: 50%;
+      }
+
+      .size {
+        flex: 20%;
+      }
+    }
+  
+
+    .item-clickable:hover {
+      cursor: pointer;
+      background-color: #232323;
+    }
+  }
+}

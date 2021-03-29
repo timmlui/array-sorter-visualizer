@@ -1,0 +1,19 @@
+.bar-container {
+  grid-area: barContainer;
+  text-align: center;
+}
+
+.bar {
+  display: inline-block;
+  margin-left: 3px;
+  // background-color: #e8e8e8;
+  max-width: 10%;
+  transition: translate 1s;
+
+
+  .bar-value {
+    transform: rotate(-90deg);
+    color: #e8e8e8;
+    position: relative;
+  }
+}
